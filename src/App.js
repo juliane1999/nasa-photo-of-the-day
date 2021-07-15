@@ -23,7 +23,7 @@ function App() {
         <h1>PHOTO OF THE DAY</h1>
         <Title title={data.title} />
         <div>
-        <Photo url={data.url} />
+        <Photo />
         <h2>Explanation:</h2>
         <Explanation explanation ={data.explanation} />
         </div>
